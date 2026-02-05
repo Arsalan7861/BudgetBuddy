@@ -2,6 +2,10 @@
 
 A modern, full-stack budgeting application built with React and TypeScript. Track your transactions, monitor spending, and manage your finances with ease.
 
+## 📸 Screenshot
+
+![BudgetBuddy Screenshot](./src/assets/image.png)
+
 ## ✨ Features
 
 - 💰 **Track Transactions** - Add, view, and manage your financial transactions
@@ -55,6 +59,7 @@ project/
 └── package.json                # Project dependencies
 ```
 
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -62,43 +67,25 @@ project/
 - Node.js 18+
 - npm or yarn
 
-### Installation
+### Installation & Running
 
-1. **Clone the repository**
-
-   ```bash
-   git clone <repository-url>
-   cd project
-   ```
-
-2. **Install dependencies**
-
+1. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+2. **Start the Backend Server**
+   ```bash
+   npm run server
+   ```
+   *Runs on http://localhost:5000*
 
+3. **Start the Frontend**
    ```bash
    npm run dev
    ```
+   *Runs on http://localhost:5173*
 
-   The application will be available at `http://localhost:5173`
-
-### Building for Production
-
-```bash
-npm run build
-```
-
-This creates an optimized, minified production build in the `dist/` directory.
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start the development server with HMR
-- `npm run build` - Create a production build
-- `npm run preview` - Preview the production build locally
-- `npm run lint` - Run ESLint to check code quality
 
 ## 🔌 API Integration
 
